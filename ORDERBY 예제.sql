@@ -43,5 +43,4 @@ ORDER BY
     CASE order_status
         WHEN 'completed' THEN total_amount
         WHEN NULL THEN ordered_at
-        ELSE NULL
     END;
